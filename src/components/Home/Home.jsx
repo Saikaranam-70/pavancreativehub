@@ -15,8 +15,8 @@ const Home = () => {
       </div>
       <div className="content">
         <h3>PAVAN KUMAR KANAPAKALA</h3>
-        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span><br />
-        <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, vitae!</span>
+        <span>The only way to do great work is to love what you do</span><br />
+        <span>The best way to predict the future is to create it.</span>
       </div>
       </div>
     </div>

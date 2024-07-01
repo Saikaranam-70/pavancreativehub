@@ -39,13 +39,7 @@ const Testimonials = () => {
                     </div>
                 </div>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Earum excepturi optio corrupti
-                    voluptate et. Libero beatae sapiente, dicta
-                    commodi impedit iste magni ex voluptatem quas,
-                    necessitatibus aliquam. Possimus minima eum optio,
-                    quos molestiae odit assumenda consequuntur magni
-                    quas enim tempore.
+                Your team delivered exceptional service and top-notch results on our latest project. The attention to detail and dedication to meeting our needs were evident throughout the entire process. We are thrilled with the outcome!
                 </p>
             </li>
             <li>
@@ -55,17 +49,11 @@ const Testimonials = () => {
                     </div>
                     <div>
                         <h3>MANIKANTA</h3>
-                        <span>7095835048</span>
+                        <span>9063686637</span>
                     </div>
                 </div>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Earum excepturi optio corrupti
-                    voluptate et. Libero beatae sapiente, dicta
-                    commodi impedit iste magni ex voluptatem quas,
-                    necessitatibus aliquam. Possimus minima eum optio,
-                    quos molestiae odit assumenda consequuntur magni
-                    quas enim tempore.
+                Working with your company has been a pleasure. The team was highly professional, efficient, and communicative. They consistently met deadlines and exceeded our expectations. We look forward to future collaborations.
                 </p>
             </li>
             <li>
@@ -75,17 +63,11 @@ const Testimonials = () => {
                     </div>
                     <div>
                         <h3>RAMPRASAD</h3>
-                        <span>7095835048</span>
+                        <span>7981806627</span>
                     </div>
                 </div>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Earum excepturi optio corrupti
-                    voluptate et. Libero beatae sapiente, dicta
-                    commodi impedit iste magni ex voluptatem quas,
-                    necessitatibus aliquam. Possimus minima eum optio,
-                    quos molestiae odit assumenda consequuntur magni
-                    quas enim tempore.
+                We were impressed by the innovative solutions your team proposed for our project. The creative approach and cutting-edge technology used have significantly enhanced our digital presence. Thank you for your outstanding work!
                 </p>
             </li>
             <li>
@@ -95,17 +77,11 @@ const Testimonials = () => {
                     </div>
                     <div>
                         <h3>AJAY</h3>
-                        <span>7095835048</span>
+                        <span>9440542694</span>
                     </div>
                 </div>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Earum excepturi optio corrupti
-                    voluptate et. Libero beatae sapiente, dicta
-                    commodi impedit iste magni ex voluptatem quas,
-                    necessitatibus aliquam. Possimus minima eum optio,
-                    quos molestiae odit assumenda consequuntur magni
-                    quas enim tempore.
+                The quality of work provided was exceptional, and the support throughout the project was superb. Your team was always available to answer questions and provide guidance. We couldn't be happier with the final product.
                 </p>
             </li>
         </ul>

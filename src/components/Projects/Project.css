@@ -1,0 +1,25 @@
+.user-info .img{
+    width: 150px;
+    border-radius: 0;
+    margin:auto;
+}
+.slider ul{
+    width: 250%;
+}
+.slider ul li{
+    width: 50%;
+}
+.btn{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn button{
+    padding: 8px 20px;
+    border: none;
+    outline: none;
+    background-color: #212ea2;
+    border-radius: 20px;
+}
+

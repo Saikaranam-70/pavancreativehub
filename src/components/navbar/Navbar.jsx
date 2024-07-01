@@ -3,6 +3,7 @@ import './Navbar.css'
 import logo from '../../assets/logo2.png'
 import menu from '../../assets/menu-icon.png'
 import { Link as ScrollLink } from 'react-scroll'
+import { Link as RouterLink } from 'react-router-dom'
 
 const Navbar = () => {
   const [mobile, setMobile] = useState(false);
@@ -12,7 +13,8 @@ const Navbar = () => {
   }
   return (
     <nav className="container">
-        <img src={logo} alt="" className="logo" />
+      <RouterLink to='/'><img src={logo} alt="" className="logo" /></RouterLink>
+        
         <ul className={mobile ? '': 'hide'}>
             <li><ScrollLink to='home' smooth={true} offset={-200} duration={500}>Home</ScrollLink> </li>
             <li> <ScrollLink to='programs' smooth={true} offset={-300} duration={500}> What We Offer</ScrollLink></li>

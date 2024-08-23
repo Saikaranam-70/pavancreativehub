@@ -6,15 +6,18 @@ import phone_icon from '../../assets/phone-icon.png'
 import location_icon from '../../assets/location-icon.png'
 import white_arrow from '../../assets/white-arrow.png'
 import { API } from '../data/data'
+import LoadingSpinner from '../loader/LoadingSpinner'
 
 const Contact = () => {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
+  const [loading, setLoading] = useState(false);
 
   const handleContact = async(e)=>{
     e.preventDefault();
+    setLoading(true);
 
     try {
       const responce = await fetch(`${API}/mail/send`,{
@@ -34,6 +37,8 @@ const Contact = () => {
     } catch (error) {
       console.log(error)
       alert("failed to send Email....!!!")
+    }finally{
+      setLoading(false)
     }
   }
   return (
@@ -63,7 +68,8 @@ const Contact = () => {
             <input type="tel" required={true} value={phone} onChange={(e)=> setPhone(e.target.value)} name='phone' placeholder='Enter Your mobile Number'/>
             <label >Write your message here</label>
             <textarea name="message" required ={true} value={message} onChange={(e)=> setMessage(e.target.value)} rows='6' id="" placeholder='Enter your message'></textarea>
-            <button type='submit' className='btn dark-btn'>Submit <img src={white_arrow} alt="" /></button>
+            <button type='submit' className='btn dark-btn'>
+              {loading ? <LoadingSpinner />: 'Submit'}</button> 
         </form>
         <span></span>
       </div>

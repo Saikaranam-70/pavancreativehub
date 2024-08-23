@@ -54,6 +54,17 @@
     color: black;
     border: none;
 }
+.btn{
+    background-color: rgb(18, 234, 93);
+    color: white;
+    padding: 10px 20px ;
+    color: white;
+    border-radius: 30px;
+}
+.btn:hover{
+    background-color: red;
+    transition: .3s linear;
+}
 
 
 

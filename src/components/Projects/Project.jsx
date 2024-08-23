@@ -57,7 +57,7 @@ const Project = () => {
                         <img className='img' src={`${API}/program/uploads/${item.image}`} alt="fdbhfwhf" 
                             onError={(e) => {
     e.target.onerror = null; 
-    e.target.src = {`${API}/program/uploads/${item.image}`}; // Fallback image
+    e.target.src =`${API}/program/uploads/${item.image}`; // Fallback image
   }}
                             />
                         }

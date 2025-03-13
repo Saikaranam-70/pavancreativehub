@@ -14,7 +14,7 @@ const Home = () => {
         <img src={founder} alt="" />
       </div>
       <div className="content">
-        <h3>PAVAN KUMAR KANAPAKALA</h3>
+        <h3>Mr. PAVAN KUMAR KANAPAKALA</h3>
         <span>The only way to do great work is to love what you do</span><br />
         <span>The best way to predict the future is to create it.</span>
       </div>

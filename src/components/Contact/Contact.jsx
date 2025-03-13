@@ -68,7 +68,7 @@ const Contact = () => {
           <label>Write your message here</label>
           <textarea name="message" required={true} value={message} onChange={(e) => setMessage(e.target.value)} rows='6' id="" placeholder='Enter your message'></textarea>
           <button type='submit' className='btn dark-btn'>
-            {loading ? <LoadingSpinner /> : 'Submit'} <img src={white_arrow} alt="" />
+           <img src={white_arrow} alt="" />
           </button>
         </form>
         <span></span>

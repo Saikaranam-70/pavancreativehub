@@ -6,7 +6,6 @@ import phone_icon from '../../assets/phone-icon.png';
 import location_icon from '../../assets/location-icon.png';
 import white_arrow from '../../assets/white-arrow.png';
 import { API } from '../data/data';
-import LoadingSpinner from '../components/LoadingSpinner'; // Import the spinner
 
 const Contact = () => {
   const [email, setEmail] = useState("");
